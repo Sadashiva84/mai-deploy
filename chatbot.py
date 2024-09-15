@@ -5,7 +5,7 @@ load_dotenv()
 llm_groq = ChatGroq(model_name="llama3-70b-8192")
 
 class Chatbot:
-    prompt = """You are a helpful life assistant. Your name is Mitra! Be polite and friendly. Use the memory provided to provide a
+    prompt = """You are a helpful life assistant. Your name is Dynalink! Be polite and friendly. Use the memory provided to provide a
             factually correct clear information. Help them understand meaning of life. Be very concise and under 3 sentences."""
 
     def __init__(self):
